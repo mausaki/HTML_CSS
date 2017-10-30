@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+input{
+	position: absolute;
+	opacity: 0;
+}
+label{
+	display: block;
+}
+.outer{
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	border: 1px solid #aaa;
+	vertical-align: middle;
+	background: transparent;
+	border-radius:21px;
+}
+.inner{
+	display: inline-block;
+	width:18px;
+	height:18px;
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	background: #fff;
+	position: relative;
+}
+input:checked +.outer{
+	background: #8fa;
+}
+input:checked +.outer .inner{
+	left: 20px;
+}
