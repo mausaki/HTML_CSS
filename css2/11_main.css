@@ -1,0 +1,22 @@
+div{
+	font:bold 70px Tahoma;
+	position:absolute;
+}
+.myClass{
+	color:steelblue;	
+	top:100px;
+	left:100px;
+	z-index:10;
+}
+.myClass2{
+	color:#ccc;
+	top:105px;
+	left:103px;
+	z-index:15;
+}
+.myClass3{
+	color:pink;
+	top:50px;
+	left:85px;
+	z-index:12;
+}

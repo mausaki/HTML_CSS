@@ -1,0 +1,14 @@
+div{
+	font:bold 70px Tahoma;
+	
+	color:red;
+}
+.myClass{
+	text-decoration:underline;
+	color:steelblue;
+}
+#myId{
+	font-family:Comic Sans MS;
+	border:1px solid red;
+	color:pink;
+}

@@ -1,0 +1,88 @@
+*{
+	margin:0px;
+	font-family:Tahoma,Arial,Verdana;
+	list-style:none;
+}
+body{
+	background:#ccc;
+}
+h1{
+	font:bold 40px Tahoma,Arial,Verdana; 
+}
+h2{
+	font:bold 30px Tahoma,Arial,Verdana; 
+}
+h3{
+	font:bold 28px Tahoma,Arial,Verdana; 
+}
+h4{
+	font:bold 20px Tahoma,Arial,Verdana; 
+}
+#skin{
+	border:1px solid red;
+	width:80%;
+	margin:0px auto;
+	background:#fff;
+}
+#top_header{
+	border:1px solid red;
+	padding:30px;
+}
+#top_menu{
+	border:1px solid red;
+	background:#ccc;
+	color:#000;
+}
+#top_menu li{
+	/*inline-block元件顯示由左排到右*/
+	display:inline-block;
+	/*padding裡面的內容隔開距離*/
+	padding:10px;
+	/*font-weight:700~900 大小*/
+	font-weight:700;
+}
+top_menu ul{
+	-webkit-padding-start:10px;	
+}
+#main_section{
+/* 	border:1px solid red; */
+	width:72%;
+	float:left;
+	margin:15px;
+	/*padding:10px;*/
+}
+#side_news{
+	/*border:1px solid red;*/
+	/*網頁不可調滿30%因為這樣才有空間調整.而且也要算入紅線邊框的距離*/
+	width:20%;
+	float:left;
+	margin:15px;
+	padding:15px;
+	font-size:14px;
+}
+#side_news p{
+	border-bottom:1px solid #aaa;
+}
+#the_footer{
+	/*不管float是寫right or left*/
+	clear:both;
+	border-top:1px solid #aaa;
+	padding:20px;
+	text-align:center;
+	font-size:12px;
+}
+article{
+	border:1px dashed #aaa;
+	padding:10px;
+	margin-bottom:10px;
+}
+article footer{
+	text-align:right;
+}
+h1,article footer{
+	text-transform:capitalize;	
+}
+h1,h2,h3,h4,p{
+	/*margin-bottom段落之間的距離*/
+	margin-bottom:8px;
+}
