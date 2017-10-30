@@ -1,0 +1,34 @@
+#box{
+	font: bold 40px Tahoma;
+	/* border: 1px solid red; */
+	width: 350px;
+	height: 200px;
+	
+	text-align:center;
+	line-height:200px;
+	margin: 50px auto;
+	
+	color:#fff;
+	text-shadow:#000 0px 0px 8px;
+	
+	/* background:yellow; */
+	/* background-image:radial-gradient(red,blue); */
+	/* background:-webkit-radial-gradient(center,circle,red,blue); */
+	/* background:-webkit-radial-gradient(left,ellipse,red,blue); */
+	/* background:-webkit-radial-gradient(left,ellipse,red 20%,blue 50%,green 80%); */
+	
+	background:-webkit-repeating-radial-gradient(left,ellipse, red 5%, blue 10%,green 15%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

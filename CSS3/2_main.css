@@ -1,0 +1,44 @@
+#parent{
+	border:1px solid red;
+	width:100px;
+	font:bold Tahoma;
+
+}
+/* #parent p[name="mau"]{
+	color:red;
+} */
+
+/*先滿足parent p標籤.並且是它裏頭的列表(child)(偶數)*/
+/*#parent p:nth-child(2){
+	color:red;
+} */
+
+/*先滿足所有的p標籤.並且是它裏頭的列表(child)(奇數)*/
+/* p:nth-child(odd){
+	color:red;
+} */
+
+/*按鈕鎖定大小*/
+input[type="submit"],input[type="reset"],input[type="button"],button{
+	width:100px;
+	text-transform:capitalize;
+	color:steelblue;
+}
+
+/*沒有搜尋到的網站給予紅字*/
+
+/*hyperlink 有加上*= 條件 全部都要有符合條件 */
+/* a[href *="google.com"]{
+	color:red;
+} */
+
+/*hyperlink 有加上^= 條件 只要前面有符合條件 */
+/* a[href ^="http://"]{
+	color:red;
+} */
+
+/*hyperlink 有加上$= 條件 後面都要有符合條件 */
+/* a[href $=".pdf"]{color:red;} */
+
+/*中括號[]裡面可以任意空格*/
+/*除此之外不行隨意空格 會代表你要查詢其"子類別" */

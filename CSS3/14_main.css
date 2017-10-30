@@ -1,0 +1,26 @@
+#box{
+	font: bold 60px Tahoma;
+	opacity: 0.6;
+	
+	/* -webkit-box-reflect:none; */
+	/* -webkit-box-reflect:below 5px -webkit-gradient(linear,center top,center bottom,from(transparent),to(#fff)); */
+	/* -webkit-box-reflect:below 10px -webkit-linear-gradient(transparent,transparent 30%,rgba(0,0,0,0.8)); */
+}
+img{
+	width:300px;
+	height:225px;
+	
+	-webkit-box-reflect:below 5px url(../images/css-masking.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+

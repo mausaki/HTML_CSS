@@ -1,0 +1,34 @@
+#box{
+	font: bold 40px Tahoma;
+	/* border: 1px solid red; */
+	width: 350px;
+	height: 200px;
+	
+	text-align:center;
+	line-height:200px;
+	margin: 50px auto;
+	
+	color:#fff;
+	text-shadow:#000 0px 0px 8px;
+	
+	/* background:yellow; */
+	/* background:linear-gradient(yellow,green); */
+	/* background-image:linear-gradient(yellow,green); */
+	/* background:-webkit-linear-gradient(left top,yellow,green); */
+	/* background-image:-webkit-linear-gradient(角度deg, 起始顏色 位置, 結束顏色 位置); */
+	/* background:-webkit-linear-gradient(180deg, red 20%, blue 50%, yellow 80%); */
+	background:-webkit-repeating-linear-gradient(top left, red 5%, blue 10%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
